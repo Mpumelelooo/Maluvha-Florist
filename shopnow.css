@@ -1,0 +1,118 @@
+body{
+  margin: 0;
+  padding: 0;
+  background-color: pink;
+  background-image: url(maluvhapictures/maluvhapinkfront.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  font-family: Montserrat;
+
+}
+
+.Logo img{
+  width: 80%;
+  max-width: 300px;
+  margin: 20px auto;
+  display: block;
+
+
+}
+
+.about-div, .about-text, .order-delivery{
+margin: 20px auto;
+max-width: 800px;
+padding: 0 15px;
+text-align: justify;
+color: brown;
+
+}
+.about-div, .order-delivery, .about-text{
+text-align: center;
+
+}
+h2 {
+color: brown;
+margin-bottom: 10px;
+
+}
+
+p{
+  color:  brown;
+  line-height: 1.6;
+}
+
+.products-btn{
+  display: block;
+  margin: 20px auto;
+  background-color:rgb(210, 128, 142);
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-family: 'Montserrat';
+  cursor: pointer;
+  text-align: center;
+  width: 200px;
+}
+
+.products-btn:hover{
+  background-color: brown;
+}
+
+
+.pricing-btn{
+  display: block;
+  margin: 20px auto;
+  background-color: rgb(210, 128, 142);
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-family: 'Montserrat';
+  cursor: pointer;
+  text-align: center;
+  width: 200px;
+}
+
+.pricing-btn:hover{
+  background-color: brown;
+}
+
+@media (max-width: 768px) {
+  h2 {
+    font-size: 1.5rem;
+  }
+}
+
+p{
+  font-size: 0.9rem;
+}
+
+.products-btn, .pricing-btn {
+  width: 70px;
+  font-size: 0.9rem;
+}
+
+.Logo img {
+  width: 80%
+}
+
+@media (max-width: 480px) {
+  h2 {
+    font-size: 1.3rem;
+  }
+}
+
+p {
+  font-size: 0.8rem;
+}
+
+.products-btn, .pricing-btn {
+  width: 90%;
+  font-size: 0.8rem;
+}
+
+.Logp img {
+  width: 90%
+}

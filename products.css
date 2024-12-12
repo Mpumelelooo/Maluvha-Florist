@@ -1,0 +1,87 @@
+body{
+  margin: 0;
+  padding: 0;
+  background-color: pink;
+  background-image: url(maluvhapictures/maluvhapinkfront.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  font-family: Montserrat;
+
+}
+
+.Logo img{
+  width: 80%;
+  max-width: 300px;
+  margin: 20px auto;
+  display: block;
+
+
+}
+h1{
+  margin: 0;
+  padding: 0;
+}
+
+h1{
+text-align: center;
+color: brown;
+font-size: 1.5 rem;
+line-height: 1.2;
+}
+
+
+
+.enquire-btn{
+  display: block;
+  margin: 20px auto;
+  background-color: rgb(210, 128, 142);
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-family: 'Montserrat';
+  cursor: pointer;
+  text-align: center;
+  width: 200px;
+}
+
+.enquire-btn:hover{
+  background-color: brown;
+}
+
+.image-gallery{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: center;
+  padding: 20px;
+
+}
+.image-gallery img{
+  width: 100%;
+  max-width: 300px;
+  height: auto;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+
+}
+
+@media (max-width: 768px) {
+  body {
+    background-size: cover;
+  }
+}
+
+h1 {
+  font-size: 1.2rem;
+}
+.enquire-btn{
+  width: 150px;
+}
+
+.image-gallery img {
+  max-width: 100%;
+}
+
+
